@@ -1,0 +1,19 @@
+{
+  "name": "broadcast-interfaces",
+  "version": "0.1",
+  "description": "Extension to os.networkInterfaces to list broadcast addresses",
+  "main": "index.js",
+  "author": "Adam Nelson <adam@nels.onl>",
+  "license": "BlueOak-1.0.0",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp configure && node-gyp build",
+    "clean": "rm -rf build"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.0.2"
+  },
+  "devDependencies": {
+    "node-gyp": "^7.1.2"
+  }
+}
