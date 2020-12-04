@@ -1,6 +1,10 @@
 #include "listInterfaces.h"
 
+#ifdef _WIN32
+#include "windows.cpp"
+#else
 #include "unix.cpp"
+#endif
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
   exports.Set(Napi::String::New(env, "listInterfaces"),
