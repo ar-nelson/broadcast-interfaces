@@ -1,9 +1,14 @@
 {
   "name": "broadcast-interfaces",
-  "version": "0.1",
-  "description": "Extension to os.networkInterfaces to list broadcast addresses",
+  "version": "1.0.0",
+  "description": "List IPv4 broadcast addresses of all network interfaces",
   "main": "index.js",
+  "types": "index.d.ts",
   "author": "Adam Nelson <adam@nels.onl>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ar-nelson/broadcast-interfaces.git"
+  },
   "license": "BlueOak-1.0.0",
   "gypfile": true,
   "scripts": {
